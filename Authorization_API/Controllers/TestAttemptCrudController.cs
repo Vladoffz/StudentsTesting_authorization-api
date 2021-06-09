@@ -60,5 +60,9 @@ namespace Authorization_API.Controllers
 
             return new JsonResult(testAttempt);
         }
+        [HttpPut]
+        public async IActionResult AAA(){
+        return NotFound();
+        }
     }
 }
